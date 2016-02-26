@@ -4,3 +4,10 @@ touch teste.txt
 git add .
 git commit -m "Primeiro commit"
 Primeiro criamos um arquivo teste.txt vazio. Depois adicionamos todos os novos arquivos (no caso só o teste.txt) ao índice do repositório, e por último comitamos todos os arquivos que estão no índice e foram modificados.
+
+Agora para atualizar o GitHub com o que está no seu repositório local, digite:
+
+git push origin master
+Informe a sua senha (da chave SSH) quando pedido.
+
+Recarregue a página do seu repositório e agora, ao invés da mensagem inicial, você verá seus commits e arquivos.
