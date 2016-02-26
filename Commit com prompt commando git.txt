@@ -1,0 +1,6 @@
+Vamos adicionar um arquivo neste repositório que está vazio e comitá-lo. Veja a sequência de comandos:
+
+touch teste.txt
+git add .
+git commit -m "Primeiro commit"
+Primeiro criamos um arquivo teste.txt vazio. Depois adicionamos todos os novos arquivos (no caso só o teste.txt) ao índice do repositório, e por último comitamos todos os arquivos que estão no índice e foram modificados.
